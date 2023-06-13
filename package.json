@@ -13,5 +13,8 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.9.2"
+  },
+  "dependencies": {
+    "posthtml-doctype": "^1.1.1"
   }
 }
