@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "source": "src/index.html",
-  "homepage": "https://vita-zinovieva.github.io/Sun-landing", 
+  "homepage": "https://vita-zinovieva.github.io/sun-landing", 
   "scripts": {
     "start": "parcel",
-    "build": "parcel build src/*.html --public-url /Sun-landing/"
+    "build": "parcel build src/*.html --public-url /sun-landing/"
   },
   "keywords": [],
   "author": "",
