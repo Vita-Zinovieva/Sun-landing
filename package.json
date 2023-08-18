@@ -7,7 +7,7 @@
   "homepage": "https://vita-zinovieva.github.io/sun-landing/", 
   "scripts": {
     "start": "parcel",
-    "build": "parcel build src/index.html --public-url /sun-landing/"
+    "build": "parcel build src/index.html /"
   },
   "keywords": [],
   "author": "",
