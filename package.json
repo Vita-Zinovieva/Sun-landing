@@ -12,9 +12,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.9.2"
+    "@parcel/transformer-sass": "^2.9.2",
+    "parcel": "^2.9.2",
+    "posthtml-include": "^1.7.4"
   },
   "dependencies": {
+    "@parcel/transformer-css": "^2.9.2",
     "posthtml-doctype": "^1.1.1"
   }
 }
