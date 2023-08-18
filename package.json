@@ -4,17 +4,16 @@
   "description": "",
   "main": "index.js",
   "source": "src/index.html",
+  "homepage": "https://vita-zinovieva.github.io/Sun-landing", 
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build src/*.html --public-url /Sun-landing/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.9.2",
-    "parcel": "^2.9.2",
-    "posthtml-include": "^1.7.4"
+    "parcel": "^2.9.2"
   },
   "dependencies": {
     "@parcel/transformer-css": "^2.9.2",
