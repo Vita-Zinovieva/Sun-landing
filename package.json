@@ -1,22 +1,30 @@
 {
-  "name": "parcel-test",
-  "version": "1.0.0",
+  "name": "parcel",
+  "version": "2.0.0",
   "description": "",
-  "main": "index.js",
-  "source": "src/index.html",
-  "homepage": "https://vita-zinovieva.github.io/sun-landing/", 
+  "homepage": " https://vita-zinovieva.github.io/sun-landing/",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build src/index.html /"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /sun-landing/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vita-Zinovieva/sun-landing"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vita-Zinovieva ",
   "license": "ISC",
-  "devDependencies": {
-    "parcel": "^2.9.2"
+  "bugs": {
+    "url": "https://github.com/Vita-Zinovieva/sun-landing/issues"
   },
   "dependencies": {
-    "@parcel/transformer-css": "^2.9.2",
-    "posthtml-doctype": "^1.1.1"
-  }
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
