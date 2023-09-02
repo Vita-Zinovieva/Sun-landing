@@ -575,6 +575,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"4M6V8":[function(require,module,exports) {
 
-},{}]},["l2tSJ","4M6V8"], "4M6V8", "parcelRequire5c22")
+},{}]},["l2tSJ","4M6V8"], "4M6V8", "parcelRequire76c7")
 
 //# sourceMappingURL=Sun-page.59712999.js.map
